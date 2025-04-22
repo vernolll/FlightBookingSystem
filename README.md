@@ -1,36 +1,28 @@
-# The Air Ticket Booking Project
+# Air ticket purchase system on C#
 
-**Description:**
+This project is a system for buying airline tickets, consisting of a client application and a server part developed in C#.
 
-A web application designed to search for airline tickets using [API name, for example Amadeus API].  The app allows users to find the most suitable flights based on their preferences by date, departure and destination.
+## Description
 
-**API Integration:**
+The system allows users to:
 
-• **Main API:** [API Name] - used to search for available flights and get pricing information.
-• **API Key:** [Describe how to get the API key and where to insert it (for example, in environment variables)].  *Please note: Do not store the API key in the code!*
+â€¢ Search for air tickets based on various criteria (city of departure, city of arrival, date, number of passengers).
+â€¢ View available flights with information on price, departure and arrival times, airline, and number of available seats.
+â€¢ Booking and purchase of air tickets.
+â€¢ Booking management (view, cancel).
 
-**Main features:**
+## Technology
 
-• Request to [API Name] to search for flights.
-• Processing and displaying search results in a user-friendly format.
-• (Optional) Caching of search results to improve performance.
-• (Optional) Integration with other APIs (for example, to get information about airports).
+â€¢ **Programming language:** C#
+â€¢ **Client Application:** WPF
+â€¢ **Database:** SQL Server
 
-**Dependencies:**
+## Architecture
 
-• [Name of the library for working with the API, for example, requests for Python]
-• [Other required libraries]
+The system consists of the following main components:
 
-**How to launch:**
+â€¢ **Client Application:** Provides a user interface for interacting with the system.
+â€¢ **Server Application (API):** Processes requests from the client application, interacts with the database, and provides data.
+â€¢ **Database:** Stores information about flights, bookings, users, and other entities.
 
-[Installation and startup instructions, as in the previous example]
-
-**Known issues:**
-
-[List the known bugs or limitations of your application.]
-
-**Future plans:**
-
-• Add support for more APIs.
-• Improve the filtering of search results.
-• Realize the possibility of booking tickets.
+**Example of an architecture diagram (optional):**
